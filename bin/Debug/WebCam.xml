@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebCam</name>
+    </assembly>
+    <members>
+        <member name="T:WebCam.Camera">
+            <summary>
+            WebCam類別
+            </summary>
+        </member>
+        <member name="M:WebCam.Camera.#ctor(System.Int32,System.String)">
+            <summary>
+            WebCam建構子
+            </summary>
+            <param name="addValue">增加亮度閥值</param>
+            <param name="webIP">WebCam IPAddress</param>
+        </member>
+        <member name="P:WebCam.Camera.IsShowFrame">
+            <summary>
+            開啟連續影像輸出模式
+            </summary>
+        </member>
+        <member name="P:WebCam.Camera.AddValue">
+            <summary>
+            預增加亮度閥值
+            </summary>
+        </member>
+        <member name="E:WebCam.Camera.OnTriggerEvent">
+            <summary>
+            進行單次取像時觸發該事件
+            </summary>
+        </member>
+        <member name="E:WebCam.Camera.OnFrameEvent">
+            <summary>
+            進行連續取像時觸發該事件
+            </summary>
+        </member>
+        <member name="M:WebCam.Camera.Capture(System.Boolean)">
+            <summary>
+            單次取像
+            </summary>
+            <param name="isAuto"></param>
+        </member>
+        <member name="M:WebCam.Camera.Video(System.Boolean)">
+            <summary>
+            連續取像
+            </summary>
+            <param name="isStop"></param>
+        </member>
+        <member name="M:WebCam.Camera.Exit">
+            <summary>
+            關閉相機
+            </summary>
+        </member>
+        <member name="M:WebCam.Camera.AdjustBrightness(System.Drawing.Bitmap)">
+            <summary>
+            修改影像亮度值
+            </summary>
+            <param name="img">影像</param>
+            <returns>輸出影像</returns>
+        </member>
+        <member name="T:WebCam.ImageEventArgs">
+            <summary>
+            影像事件類別
+            </summary>
+        </member>
+        <member name="P:WebCam.ImageEventArgs.Image">
+            <summary>
+            影像
+            </summary>
+        </member>
+        <member name="P:WebCam.ImageEventArgs.ProcTime">
+            <summary>
+            處理時間
+            </summary>
+        </member>
+    </members>
+</doc>

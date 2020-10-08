@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductAI</name>
+    </assembly>
+    <members>
+        <member name="T:ProductAI.DrawItem">
+            <summary>
+            商品辨識類別(繪圖用)
+            </summary>
+        </member>
+        <member name="M:ProductAI.DrawItem.#ctor">
+            <summary>
+            商品辨識建構子
+            </summary>
+        </member>
+        <member name="M:ProductAI.DrawItem.#ctor(System.String,System.String,System.Int32,System.Double,System.Drawing.Rectangle)">
+            <summary>
+            商品辨識建構子
+            </summary>
+            <param name="barcode">商品條碼</param>
+            <param name="name">商品名稱</param>
+            <param name="price">商品價格</param>
+            <param name="confidence">商品相似度</param>
+            <param name="rect">商品位置(邊界框)</param>
+        </member>
+        <member name="M:ProductAI.DrawItem.Add(System.Double,System.Drawing.Rectangle)">
+            <summary>
+            新增相同商品
+            </summary>
+            <param name="confidence">商品相似度</param>
+            <param name="rect">商品位置(邊界框)</param>
+        </member>
+        <member name="P:ProductAI.DrawItem.BarCode">
+            <summary>
+            產品代碼
+            </summary>
+        </member>
+        <member name="P:ProductAI.DrawItem.Name">
+            <summary>
+            產品名稱
+            </summary>
+        </member>
+        <member name="P:ProductAI.DrawItem.Price">
+            <summary>
+            產品價格
+            </summary>
+        </member>
+        <member name="P:ProductAI.DrawItem.Confidence">
+            <summary>
+            相似度
+            </summary>
+        </member>
+        <member name="P:ProductAI.DrawItem.Rectangles">
+            <summary>
+            邊界框
+            </summary>
+        </member>
+        <member name="T:ProductAI.Product">
+            <summary>
+            產品類別
+            </summary>
+        </member>
+        <member name="M:ProductAI.Product.#ctor">
+            <summary>
+            產品建構子
+            </summary>
+        </member>
+        <member name="M:ProductAI.Product.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+            產品建構子
+            </summary>
+            <param name="barcode">產品條碼</param>
+            <param name="name">產品名稱</param>
+            <param name="price">產品價格</param>
+        </member>
+        <member name="M:ProductAI.Product.#ctor(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            產品建構子
+            </summary>
+            <param name="barcode">產品條碼</param>
+            <param name="name">產品名稱</param>
+            <param name="price">產品價格</param>
+            <param name="pcs">產品數量</param>
+        </member>
+        <member name="P:ProductAI.Product.BarCode">
+            <summary>
+            產品代碼
+            </summary>
+        </member>
+        <member name="P:ProductAI.Product.Name">
+            <summary>
+            產品名稱
+            </summary>
+        </member>
+        <member name="P:ProductAI.Product.Price">
+            <summary>
+            產品價格
+            </summary>
+        </member>
+        <member name="P:ProductAI.Product.Pcs">
+            <summary>
+            產品數量
+            </summary>
+        </member>
+        <member name="E:ProductAI.ProductAI.OnDetectFinished">
+            <summary>
+            當辨識完成後觸發該事件
+            </summary>
+        </member>
+        <member name="P:ProductAI.ProductAI.IsBusy">
+            <summary>
+            是否忙碌中
+            </summary>
+        </member>
+        <member name="P:ProductAI.ProductAI.IoU">
+            <summary>
+            IoU
+            </summary>
+        </member>
+        <member name="M:ProductAI.ProductAI.Initial(System.String,System.String,System.String,System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="productPath">產品清單路徑</param>
+            <param name="configPath">AI Model Config路徑</param>
+            <param name="weightPath">AI_Model_Weight路徑</param>
+            <param name="namesPath">AI_Model_Names路徑</param>
+        </member>
+        <member name="M:ProductAI.ProductAI.Detect(System.String)">
+            <summary>
+            AI商品辨識
+            </summary>
+            <param name="imgPath">影像路徑</param>
+            <returns>產品清單</returns>
+        </member>
+        <member name="T:ProductAI.ProductItemEventArgs">
+            <summary>
+            商品辨識結果
+            </summary>
+        </member>
+        <member name="P:ProductAI.ProductItemEventArgs.ProductList">
+            <summary>
+            產品清單
+            </summary>
+        </member>
+        <member name="P:ProductAI.ProductItemEventArgs.ProcTime">
+            <summary>
+            處理時間
+            </summary>
+        </member>
+    </members>
+</doc>
