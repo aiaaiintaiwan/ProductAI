@@ -20,7 +20,7 @@ private void ProductAI_OnDetectFinished(object sender, ProductItemEventArgs e)
   List<DrawItem> DrawItems = e.ProductList;
 }
 ```
-Step 2. Detect from Image(File Path)
+Step 2. Detect from Image **(File Path)**
 ```C#
 private void browseBtn_Click(object sender, EventArgs e)
 {
