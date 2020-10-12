@@ -22,7 +22,7 @@ private void ProductAI_OnDetectFinished(object sender, ProductItemEventArgs e)
 ```
 Step 2. Detect from Image(File Path)
 ```C#
- private void browseBtn_Click(object sender, EventArgs e)
+private void browseBtn_Click(object sender, EventArgs e)
 {
   bmp.Save(@".detect.bmp");
   ProductAI.ProductAI.Detect(@".detect.bmp");
