@@ -1,7 +1,11 @@
 # ProductAI
 The ProductAI is used **ProductAI.dll** to detect the product. If you want to use this library, please download the **sample code and the [weights](https://drive.google.com/file/d/1fO5FkQXADNik-m7zpTiGdxGuH8BOqJSj/view?usp=sharing)** first. **The weight file must be placed to directory of model.**
 
-IF you want to detect the product, please **download the TestImg File or download this [link](https://drive.google.com/file/d/1_r45yU8AHSbe4NMLPbx2KmVibIMXdttT/view?usp=sharing) first**.
+## Train and Test
+IF you want to detect the product, please down the link.
+* [Weights](https://drive.google.com/file/d/1fO5FkQXADNik-m7zpTiGdxGuH8BOqJSj/view?usp=sharing)
+* [Train Image](https://drive.google.com/file/d/1Zw9WyKVUqHIM5QQmP27i8tfrzkc8qwpT/view?usp=sharing)
+* [Test Image](https://drive.google.com/file/d/1_r45yU8AHSbe4NMLPbx2KmVibIMXdttT/view?usp=sharing)
 
 ## System requirements
 * .Net Framework 4.6.1 or .Net standard 2.0
