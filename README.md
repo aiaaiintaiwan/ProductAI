@@ -1,5 +1,5 @@
 # ProductAI
-The ProductAI is used **ProductAI.dll** to detect the product. If you want to use this library, please download the **sample code and the [weights](https://drive.google.com/file/d/1fO5FkQXADNik-m7zpTiGdxGuH8BOqJSj/view?usp=sharing)** first.
+The ProductAI is used **ProductAI.dll** to detect the product. If you want to use this library, please download **sample code and the [weights](https://drive.google.com/file/d/1fO5FkQXADNik-m7zpTiGdxGuH8BOqJSj/view?usp=sharing)** first.
 
 ## Train and Test
 IF you want to detect the product, please download the link.
