@@ -3,7 +3,7 @@ The ProductAI is used **ProductAI.dll** to detect the product. If you want to us
 
 ## Train and Test
 IF you want to detect the product, please download the link.
-* [Weights](https://drive.google.com/file/d/1fO5FkQXADNik-m7zpTiGdxGuH8BOqJSj/view?usp=sharing) :<The weight file must be placed to directory of model.>
+* [Weights](https://drive.google.com/file/d/1fO5FkQXADNik-m7zpTiGdxGuH8BOqJSj/view?usp=sharing) :**The weight file must be placed to directory of model.**
 * [Train Image](https://drive.google.com/file/d/1Zw9WyKVUqHIM5QQmP27i8tfrzkc8qwpT/view?usp=sharing)
 * [Test Image](https://drive.google.com/file/d/1_r45yU8AHSbe4NMLPbx2KmVibIMXdttT/view?usp=sharing)
 
