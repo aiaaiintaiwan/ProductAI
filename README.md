@@ -8,10 +8,10 @@ IF you want to detect the product, please download the **TestImg File** or downl
 * Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019 x64
 ### GPU requirements (optional)
 It is important to use the mentioned version 10.2
-* Install the latest Nvidia driver for your graphic device
-* Install Nvidia CUDA Toolkit 10.2 (must be installed add a hardware driver for cuda support)
-* Download Nvidia cuDNN v7.6.5 for CUDA 10.2
-* Copy the cudnn64_7.dll from the output directory of point 2. into the project folder.
+1. Install the latest Nvidia driver for your graphic device
+2. Install Nvidia CUDA Toolkit 10.2 (must be installed add a hardware driver for cuda support)
+3. Download Nvidia cuDNN v7.6.5 for CUDA 10.2
+4. Copy the cudnn64_7.dll from the output directory of point 2. into the project folder.
 
 ## Eample Code
 Step 1. Initial
